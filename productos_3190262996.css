@@ -1,0 +1,17 @@
+/* Incluye los mismos estilos base de menú y footer */
+.cuerpo_3190262996 { font-family: sans-serif; margin: 0; background-color: #fdfbf7; display: flex; flex-direction: column; min-height: 100vh; }
+.encabezado_3190262996 { background-color: #4e342e; position: sticky; top: 0; }
+.lista-menu_3190262996 { list-style: none; padding: 15px 0; display: flex; justify-content: center; gap: 30px; margin: 0; }
+.lista-menu_3190262996 a { color: #fff3e0; text-decoration: none; font-weight: bold; }
+.pie-pagina_3190262996 { background-color: #3e2723; color: #fff3e0; text-align: center; padding: 20px; margin-top: auto; }
+
+/* Estilos específicos de Productos */
+.contenido-principal_3190262996 { padding: 20px; max-width: 800px; margin: 0 auto; text-align: center; width: 100%; }
+.grid-productos_3190262996 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-top: 20px; }
+.tarjeta-producto_3190262996 { background-color: #efebe4; padding: 20px; border-radius: 8px; border: 1px solid #8d6e63; }
+
+/* Media Query */
+@media (max-width: 600px) {
+    .lista-menu_3190262996 { flex-direction: column; text-align: center; }
+    .grid-productos_3190262996 { grid-template-columns: 1fr; }
+}

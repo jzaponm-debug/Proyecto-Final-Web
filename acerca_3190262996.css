@@ -1,0 +1,16 @@
+/* Estilos base */
+.cuerpo_3190262996 { font-family: sans-serif; margin: 0; background-color: #fdfbf7; display: flex; flex-direction: column; min-height: 100vh; }
+.encabezado_3190262996 { background-color: #4e342e; position: sticky; top: 0; }
+.lista-menu_3190262996 { list-style: none; padding: 15px 0; display: flex; justify-content: center; gap: 30px; margin: 0; }
+.lista-menu_3190262996 a { color: #fff3e0; text-decoration: none; font-weight: bold; }
+.pie-pagina_3190262996 { background-color: #3e2723; color: #fff3e0; text-align: center; padding: 20px; margin-top: auto; }
+
+/* Estilos específicos de Acerca De */
+.contenido-principal_3190262996 { padding: 20px; max-width: 600px; margin: 0 auto; text-align: center; width: 100%; }
+.tarjeta-perfil_3190262996 { background-color: #efebe4; padding: 30px; border-radius: 10px; margin-top: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+.foto-creador_3190262996 { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 3px solid #4e342e; }
+
+/* Media Query[cite: 1] */
+@media (max-width: 600px) {
+    .lista-menu_3190262996 { flex-direction: column; text-align: center; }
+}
